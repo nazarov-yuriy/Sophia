@@ -2,9 +2,9 @@ wandb_log = True
 wandb_project = 'owt-sophia'
 wandb_run_name='gpt2-500M'
 
-batch_size = 12
+batch_size = 10
 block_size = 1024
-gradient_accumulation_steps = 5
+gradient_accumulation_steps = 6
 
 n_layer = 36
 n_head = 16
